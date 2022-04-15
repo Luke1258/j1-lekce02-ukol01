@@ -9,6 +9,10 @@ public class HlavniProgram {
 
         zofka = new Turtle();
 
+        nakresliPrasatko(zofka);
+    }
+
+    private void nakresliPrasatko(Turtle zofka) {
         for (int i = 0; i < 4; i++) {
             zofka.move(150.0);
             zofka.turnRight(90.0);
